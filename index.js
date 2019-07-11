@@ -7,7 +7,7 @@ function combine(){
         for (i=0;i<pronoun.length;i++){
             for (x=0;x<adj.length;x++){
                 for (y=0;y<noun.length;y++){
-                   myArray.push(pronoun[i] + " "+ adj[x] + " " + noun[y] + " ");
+                   myArray.push(pronoun[i] + " "+ adj[x] + " " + noun[y] + " " + ".com");
             }
         }
     }
